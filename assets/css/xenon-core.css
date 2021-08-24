@@ -3914,11 +3914,13 @@ body.chat-open #chat {
 }
 
 .headnav{
-    position:fixed;
-    top:0;
-    z-index:198;
-    margin-left:-30px;
-    width:100%
+    position: relative;
+    margin:-30px;
+    /* position:fixed; */
+    /* top:0; */
+    /* z-index:198; */
+    /* margin-left:-30px; */
+    /* width:100% */
 }
 .colorcard{
     margin-top:70px;
