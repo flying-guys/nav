@@ -6199,9 +6199,9 @@ label.cbr-inline+.cbr-inline {
     position: relative
 }
 
-.label.pull-right {
-    /* margin-top: 4px */
-}
+/* .label.pull-right {
+    margin-top: 4px 
+} */
 
 .label.pull-left {
     margin-top: 4px;
