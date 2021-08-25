@@ -1222,13 +1222,14 @@
                         <!--  - Purchase for only <strong>23$</strong> -->
                     </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
-                    <div class="go-up">
+                    <!-- <div class="go-up">
                         <a href="#" rel="go-top">
                             <i class="fa-angle-up"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </footer>
+            <div class="uptop" title="点击返回顶部"></div>
         </div>
     </div>
     <!-- 锚点平滑移动 -->
@@ -1293,6 +1294,21 @@
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
+
+    // 监听滚动变化
+    $(window).scroll(function() {
+        if($(window).scrollTop() < 100) {
+            $(".uptop").removeClass("show");
+        } else {
+            $(".uptop").addClass("show");
+        }
+    });
+    
+    // 返回顶部
+    $(".uptop").click(function(){
+		$("html, body").animate({scrollTop:0}, "normal"); 
+		return false; 
+	});
     </script>
     
     <!-- Bottom Scripts -->
