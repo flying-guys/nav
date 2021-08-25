@@ -31,12 +31,12 @@
     display: block;
     margin-right: 10px;
 }
-/*.xe-comment {
+/* .xe-comment {
     transform: translateY(-50%);
     position: absolute;
     margin-left: 50px;
-    top: 50%;*/
-}
+    top: 50%;
+} */
 .xe-comment p {
     margin-bottom: 0px;
     margin-right: 15px;
@@ -132,4 +132,43 @@
       width: 20%;
       float: left;
     }
+}
+
+.uptop {
+  width: 40px;
+  height: 40px;
+  border-radius:25px;
+  position: fixed;
+  right:12px;
+  bottom: 20px;
+  right: -60px;
+  background-color: rgba(67,69,70,.75);
+  z-index: 50;
+  -webkit-transition: all .36s ease;
+  transition: all .36s ease;
+/*    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;*/
+  cursor: pointer;
+}
+
+.uptop:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-top: 1px solid hsla(0,0%,100%,.75);
+  border-right: 1px solid hsla(0,0%,100%,.75);
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  -webkit-transform: rotate(
+-45deg
+) translate(-50%,-50%);
+  transform: rotate(
+-45deg
+) translate(-50%,-50%);
+}
+.uptop.show{
+right:12px
 }
