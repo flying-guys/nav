@@ -166,7 +166,7 @@ var public_vars = public_vars || {};
 		}
 
 
-
+		
 		// Go to top links
 		$('body').on('click', 'a[rel="go-top"]', function(ev)
 		{
