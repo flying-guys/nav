@@ -3914,11 +3914,13 @@ body.chat-open #chat {
 }
 
 .headnav{
-    position:fixed;
-    top:0;
-    z-index:198;
-    margin-left:-30px;
-    width:100%
+    position: relative;
+    margin:-30px;
+    /* position:fixed; */
+    /* top:0; */
+    /* z-index:198; */
+    /* margin-left:-30px; */
+    /* width:100% */
 }
 .colorcard{
     margin-top:70px;
@@ -6197,9 +6199,9 @@ label.cbr-inline+.cbr-inline {
     position: relative
 }
 
-.label.pull-right {
-    /* margin-top: 4px */
-}
+/* .label.pull-right {
+    margin-top: 4px 
+} */
 
 .label.pull-left {
     margin-top: 4px;
