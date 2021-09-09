@@ -63,6 +63,7 @@
           "name": "饭团资源",
           "type": 0,
           "api": "http://fantuan.wkfile.com/api.php/provide/vod/at/xml",
+          "playUrl":"https://vip.parwix.com:4433/player/?url=",
           "categories": [
               "动作片",
               "喜剧片",
