@@ -1,6 +1,14 @@
 {
   "sites": [
     {
+      "key": "饭团影视",
+      "name": "饭团影视",
+      "type": 0,
+      "api": "http://fantuan.wkfile.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "categories": []
+    },  
+    {
       "key": "快播云",
       "name": "快播云",
       "type": 0,
