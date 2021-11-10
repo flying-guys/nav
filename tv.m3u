@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:-1 ,上海卫视
+http://39.135.34.142:8080/000000001000/1000000001000030202/1.m3u8?
+#EXTINF:-1 ,上海纪實人文5.5M1080HEVC[1920*1080]
+http://223.110.245.156/ott.js.chinamobile.com/PLTV/3/224/3221227674/index.m3u8
+#EXTINF:-1 ,上海外語4M1080[1920*1080]
+http://39.134.39.39/PLTV/88888888/224/3221226201/index.m3u8
+#EXTINF:-1 ,上海第一財經4M1080[1920*1080]
+http://39.134.39.39/PLTV/88888888/224/3221226172/index.m3u8
+#EXTINF:-1 ,上海纪實人文4M1080[1920*1080]
+http://39.134.39.39/PLTV/88888888/224/3221226174/index.m3u8
+#EXTINF:-1 ,上海外语FHD
+http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海法制天地
+http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
+#EXTINF:-1 ,上海浦东财经
+http://183.207.255.188/live/program/live/dfcj/1300000/mnf.m3u8
+#EXTINF:-1 ,上海七彩戏曲
+http://183.207.255.188/live/program/live/qcxj/1300000/mnf.m3u8
+#EXTINF:-1 ,上海生活时尚FHD
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海纪实FHD
+http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海卫视
+http://39.135.32.29:6610/000000001000/1000000001000030202/1.m3u8?
+#EXTINF:-1 ,上海新闻综合
+http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海东方影视
+http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海外语
+http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海都市
+http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海生活时尚
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海纪实
+http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海纪实频道
+http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海新视觉
+http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海全纪实
+http://183.207.255.188/live/program/live/qjshd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海极速汽车
+http://183.207.255.188/live/program/live/jsqchd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海动漫秀场
+http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海欢笑剧场
+http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海生活时尚
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海游戏风云
+http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海哈哈炫动[736*540]
+http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8
