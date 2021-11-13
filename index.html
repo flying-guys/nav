@@ -2,34 +2,156 @@
 <html lang="zh">
 
 <head>
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
+    <link rel="shortcut icon" href="./assets/images/favicon.png">    
     <meta charset="UTF-8">
     <title>Lab Nav</title>
-    <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
-
-    }
-
-    if (language.indexOf("en") > -1) {
-        document.location.href = "cn/index.html";
-    } else if (language.indexOf("zh") > -1) {
-        document.location.href = "cn/index.html";
-    } else {
-        document.location.href = "cn/index.html";
-
-    }
-    </script>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flying-guys/nav/assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="flypotato" />
+    <style type="text/css">
+body {
+  margin: 0;
+  background: #2b2f3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Signika Negative', sans-serif;
+}
+body h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  margin-bottom: 1em;
+}
+body .container {
+  text-align: center;
+}
+body .container a {
+  display: inline-block;
+  margin: 20px;
+  color: #fff;
+  line-height: 1.4em;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.9em 3.5em;
+  border: 0.18em solid transparent;
+  background: #2b2f3c;
+  border-radius: 3.5em;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+body .container a:before {
+  content: "";
+  display: block;
+  border-radius: 3.5em;
+  position: absolute;
+  background: inherit;
+  top: 0.2em;
+  left: 0.2em;
+  right: 0.2em;
+  bottom: 0.2em;
+  z-index: -1;
+}
+body .container a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  transform: rotate(0deg);
+  animation: gradient 2s ease alternate infinite;
+  /*-webkit-animation-play-state: paused;*/
+  /*animation-play-state: paused;*/
+}
+body .container a:hover:after {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+body .container a:nth-child(1):after {
+  background: #33cbeb;
+  background: -moz-linear-gradient(left, #33cbeb 0%, #28d662 30%, #f07739 70%, #e3366b 100%);
+  background: -webkit-linear-gradient(left, #33cbeb 0%, #28d662 30%, #f07739 70%, #e3366b 100%);
+  background: linear-gradient(to right, #33cbeb 0%, #28d662 30%, #f07739 70%, #e3366b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33cbeb', endColorstr='#e3366b', GradientType=1);
+  background-size: 300% 300%;
+}
+body .container a:nth-child(2):after {
+  background: #6086c1;
+  background: -moz-linear-gradient(45deg, #6086c1 0%, #efe097 70%, #d66466 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6086c1), color-stop(70%, #efe097), color-stop(100%, #d66466));
+  background: -webkit-linear-gradient(45deg, #6086c1 0%, #efe097 70%, #d66466 100%);
+  background: -o-linear-gradient(45deg, #6086c1 0%, #efe097 70%, #d66466 100%);
+  background: -ms-linear-gradient(45deg, #6086c1 0%, #efe097 70%, #d66466 100%);
+  background: linear-gradient(45deg, #6086c1 0%, #efe097 70%, #d66466 100%);
+  background-size: 300% 300%;
+}
+body .container a:nth-child(3):after {
+  background: #e636c4;
+  background: -moz-linear-gradient(left, #e636c4 0%, #3fcea5 48%, #50408b 96%);
+  background: -webkit-linear-gradient(left, #e636c4 0%, #3fcea5 48%, #50408b 96%);
+  background: linear-gradient(to right, #e636c4 0%, #3fcea5 48%, #50408b 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e636c4', endColorstr='#50408b', GradientType=1);
+  background-size: 300% 300%;
+}
+body .container a:nth-child(4):after {
+  background: #f79533;
+  background: -moz-linear-gradient(left, #f79533 0%, #a166ab 48%, #6fba82 96%);
+  background: -webkit-linear-gradient(left, #f79533 0%, #a166ab 48%, #6fba82 96%);
+  background: linear-gradient(60deg, #f79533 0%, #a166ab 48%, #6fba82 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f79533', endColorstr='#6fba82', GradientType=1);
+  background-size: 300% 300%;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 95% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 95% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+    </style>
 </head>
 
 <body>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<main>
+		<h1>永远相信美好的事情即将发生</h1>
+		<div class="container">
+			<a href="https://flypotato.xyz/en/index.html"> <i class="fa fa-home  " ></i> 实验室导航</a>
+			<a href="https://flypotato.xyz/cn/index.html"> <i class="fa fa-globe  "></i> 个人导航</a>
+			<a href="https://pan.flypotato.xyz"> <i class="fa fa-cloud  "></i> 我的网盘</a>
+		</div>
+	</main>
 </body>
 
 </html>
